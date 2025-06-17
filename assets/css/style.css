@@ -1014,6 +1014,15 @@ button:focus {
   border: 1px solid #424242;
   overflow: hidden;
   border-radius: 5px;
+  /* max-height: 500px; */
+}
+.bg-img {
+  max-height: 500px;
+  width: 100%;
+}
+.bg-img-blog {
+  max-height: 300px;
+  width: auto;
 }
 .blog .card:hover .blog-card-img img {
   -webkit-transform: scale(1.1);

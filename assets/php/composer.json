@@ -1,0 +1,12 @@
+{
+    "name": "preston/php",
+    "description": "Resume site",
+    "autoload": {
+        "psr-4": {
+            "Preston\\Php\\": "src/"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.10"
+    }
+}
